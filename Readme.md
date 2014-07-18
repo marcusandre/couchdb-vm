@@ -1,7 +1,8 @@
 
 # couchdb-vm
 
-  Easily create and run a CouchDB instance inside a virtual machine.
+  Easily create and run a [CouchDB](http://couchdb.apache.org/) instance
+  inside a virtual machine.
 
 ## Installation
 
@@ -10,8 +11,9 @@ $ git clone https://github.com/marcusandre/couchdb-vm
 $ cd couchdb-vm && vagrant up
 ```
 
-  Vagrant will spin up a new CouchDB vm at [http://192.168.111.222:4000](http://192.168.111.222:4000)
-  You can easily edit the **port** inside ```setup.sh```.
+  [Vagrant](http://www.vagrantup.com/) will spin up a new CouchDB vm at
+  [http://192.168.111.222:4000](http://192.168.111.222:4000) You can 
+  easily edit the **port** inside ```setup.sh```.
 
 ## License
 
