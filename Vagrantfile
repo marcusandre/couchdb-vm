@@ -11,4 +11,6 @@ Vagrant.configure(2) do |config|
     vb.name = "IAA"
     vb.customize ["modifyvm", :id, "--memory", "512"]
   end
+
+  config.vm.provision "shell", path: "setup.sh"
 end
