@@ -11,9 +11,8 @@ $ git clone https://github.com/marcusandre/couchdb-vm
 $ cd couchdb-vm && vagrant up
 ```
 
-  [Vagrant](http://www.vagrantup.com/) will spin up a new CouchDB vm at
-  [http://192.168.111.222:4000](http://192.168.111.222:4000) You can 
-  easily edit the **port** inside ```setup.sh```.
+  [Vagrant](http://www.vagrantup.com/) will spin up a new CouchDB vm at on port
+  ```5984```. You can interact with the Database as you normally would (eg. via [http://localhost:5984/](http://localhost:5984/)).
 
 ## License
 

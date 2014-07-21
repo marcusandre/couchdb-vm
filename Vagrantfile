@@ -2,10 +2,9 @@
 # vi: set ft=ruby :
 
 Vagrant.configure(2) do |config|
-  config.vm.hostname = "couch"
+  config.vm.hostname = "couchdb"
   config.vm.box = "ubuntu/trusty64"
-  config.vm.network "private_network", ip: "192.168.111.222"
-  config.vm.synced_folder ".", "/IAA"
+  config.vm.network "forwarded_port", guest: 5984, host: 5984
 
   config.vm.provider "virtualbox" do |vb|
     vb.name = "CouchDB"
